@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99
+CFLAGS = -Wall -Wextra -std=c99 -D_DEFAULT_SOURCE
 TARGET = tock
 PREFIX = /usr/local
 BINDIR = $(PREFIX)/bin
